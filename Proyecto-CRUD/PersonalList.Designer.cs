@@ -222,6 +222,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TablaPersonal);
             this.Name = "PersonalList";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PersonalList";
             ((System.ComponentModel.ISupportInitialize)(this.TablaPersonal)).EndInit();
             this.ResumeLayout(false);
