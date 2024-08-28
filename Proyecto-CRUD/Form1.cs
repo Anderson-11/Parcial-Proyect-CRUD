@@ -16,5 +16,17 @@ namespace Proyecto_CRUD
         {
             InitializeComponent();
         }
+
+        private void btnVer_Click(object sender, EventArgs e)
+        {
+            PersonalList link = new PersonalList();
+            link.ShowDialog();
+        }
+
+        private void btnAñadir_Click(object sender, EventArgs e)
+        {
+            Mantenimiento persona = new Mantenimiento();
+            persona.ShowDialog();
+        }
     }
 }

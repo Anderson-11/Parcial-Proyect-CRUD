@@ -62,6 +62,7 @@
             this.tbRecargar.TabIndex = 16;
             this.tbRecargar.Text = "Recargar";
             this.tbRecargar.UseVisualStyleBackColor = false;
+            this.tbRecargar.Click += new System.EventHandler(this.tbRecargar_Click);
             // 
             // label2
             // 
@@ -80,6 +81,7 @@
             this.tbFiltro.Name = "tbFiltro";
             this.tbFiltro.Size = new System.Drawing.Size(123, 20);
             this.tbFiltro.TabIndex = 14;
+            this.tbFiltro.TextChanged += new System.EventHandler(this.tbFiltro_TextChanged);
             // 
             // label1
             // 
@@ -115,6 +117,7 @@
             this.TablaPersonal.Name = "TablaPersonal";
             this.TablaPersonal.Size = new System.Drawing.Size(755, 326);
             this.TablaPersonal.TabIndex = 12;
+            this.TablaPersonal.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TablaPersonal_CellClick);
             // 
             // Delete
             // 
@@ -234,14 +237,14 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView TablaPersonal;
         private System.Windows.Forms.DataGridViewImageColumn Delete;
-        private System.Windows.Forms.DataGridViewImageColumn Update;
+        private new System.Windows.Forms.DataGridViewImageColumn Update;
         private System.Windows.Forms.DataGridViewTextBoxColumn SupplierID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CompanyName;
+        private new System.Windows.Forms.DataGridViewTextBoxColumn CompanyName;
         private System.Windows.Forms.DataGridViewTextBoxColumn ContactName;
         private System.Windows.Forms.DataGridViewTextBoxColumn ContactTitle;
         private System.Windows.Forms.DataGridViewTextBoxColumn Addres;
         private System.Windows.Forms.DataGridViewTextBoxColumn City;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Region;
+        private new System.Windows.Forms.DataGridViewTextBoxColumn Region;
         private System.Windows.Forms.DataGridViewTextBoxColumn PostalCode;
         private System.Windows.Forms.DataGridViewTextBoxColumn Country;
         private System.Windows.Forms.DataGridViewTextBoxColumn Phone;

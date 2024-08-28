@@ -43,7 +43,7 @@
             this.text4 = new System.Windows.Forms.TextBox();
             this.text2 = new System.Windows.Forms.TextBox();
             this.text1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.addPerson = new System.Windows.Forms.Label();
             this.btnEnviarDatos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -58,6 +58,7 @@
             this.btnModificar.TabIndex = 53;
             this.btnModificar.Text = "Editar";
             this.btnModificar.UseVisualStyleBackColor = false;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // label9
             // 
@@ -185,17 +186,17 @@
             this.text1.Size = new System.Drawing.Size(171, 20);
             this.text1.TabIndex = 39;
             // 
-            // label1
+            // addPerson
             // 
-            this.label1.AutoSize = true;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.label1.Font = new System.Drawing.Font("Georgia", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(133, 33);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(297, 34);
-            this.label1.TabIndex = 38;
-            this.label1.Text = "⁓Añadir Personal⁓";
+            this.addPerson.AutoSize = true;
+            this.addPerson.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.addPerson.Font = new System.Drawing.Font("Georgia", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addPerson.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.addPerson.Location = new System.Drawing.Point(133, 33);
+            this.addPerson.Name = "addPerson";
+            this.addPerson.Size = new System.Drawing.Size(297, 34);
+            this.addPerson.TabIndex = 38;
+            this.addPerson.Text = "⁓Añadir Personal⁓";
             // 
             // btnEnviarDatos
             // 
@@ -208,6 +209,7 @@
             this.btnEnviarDatos.TabIndex = 54;
             this.btnEnviarDatos.Text = "Aceptar";
             this.btnEnviarDatos.UseVisualStyleBackColor = false;
+            this.btnEnviarDatos.Click += new System.EventHandler(this.btnEnviarDatos_Click);
             // 
             // Mantenimiento
             // 
@@ -230,7 +232,7 @@
             this.Controls.Add(this.text4);
             this.Controls.Add(this.text2);
             this.Controls.Add(this.text1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.addPerson);
             this.Controls.Add(this.btnEnviarDatos);
             this.Name = "Mantenimiento";
             this.Text = "Mantenimiento";
@@ -256,7 +258,7 @@
         private System.Windows.Forms.TextBox text4;
         private System.Windows.Forms.TextBox text2;
         private System.Windows.Forms.TextBox text1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label addPerson;
         private System.Windows.Forms.Button btnEnviarDatos;
     }
 }

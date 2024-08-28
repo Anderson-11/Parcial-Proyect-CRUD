@@ -44,6 +44,7 @@
             this.btnAñadir.TabIndex = 5;
             this.btnAñadir.Text = "Añadir Personal";
             this.btnAñadir.UseVisualStyleBackColor = false;
+            this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
             // 
             // btnVer
             // 
@@ -56,6 +57,7 @@
             this.btnVer.TabIndex = 4;
             this.btnVer.Text = "Ver Listado";
             this.btnVer.UseVisualStyleBackColor = false;
+            this.btnVer.Click += new System.EventHandler(this.btnVer_Click);
             // 
             // label1
             // 

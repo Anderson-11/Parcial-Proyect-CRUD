@@ -1,0 +1,15 @@
+C:\Users\MINEDUCYT\Desktop\Parcial-CRUD\Proyecto-CRUD\Proyecto-CRUD\bin\Debug\Proyecto-CRUD.exe.config
+C:\Users\MINEDUCYT\Desktop\Parcial-CRUD\Proyecto-CRUD\Proyecto-CRUD\bin\Debug\Proyecto-CRUD.exe
+C:\Users\MINEDUCYT\Desktop\Parcial-CRUD\Proyecto-CRUD\Proyecto-CRUD\bin\Debug\Proyecto-CRUD.pdb
+C:\Users\MINEDUCYT\Desktop\Parcial-CRUD\Proyecto-CRUD\Proyecto-CRUD\obj\Debug\Proyecto-CRUD.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\Desktop\Parcial-CRUD\Proyecto-CRUD\Proyecto-CRUD\obj\Debug\Proyecto_CRUD.Form1.resources
+C:\Users\MINEDUCYT\Desktop\Parcial-CRUD\Proyecto-CRUD\Proyecto-CRUD\obj\Debug\Proyecto_CRUD.Mantenimiento.resources
+C:\Users\MINEDUCYT\Desktop\Parcial-CRUD\Proyecto-CRUD\Proyecto-CRUD\obj\Debug\Proyecto_CRUD.PersonalList.resources
+C:\Users\MINEDUCYT\Desktop\Parcial-CRUD\Proyecto-CRUD\Proyecto-CRUD\obj\Debug\Proyecto_CRUD.Properties.Resources.resources
+C:\Users\MINEDUCYT\Desktop\Parcial-CRUD\Proyecto-CRUD\Proyecto-CRUD\obj\Debug\Proyecto-CRUD.csproj.GenerateResource.cache
+C:\Users\MINEDUCYT\Desktop\Parcial-CRUD\Proyecto-CRUD\Proyecto-CRUD\obj\Debug\Proyecto-CRUD.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\Desktop\Parcial-CRUD\Proyecto-CRUD\Proyecto-CRUD\obj\Debug\Proyecto-CRUD.exe
+C:\Users\MINEDUCYT\Desktop\Parcial-CRUD\Proyecto-CRUD\Proyecto-CRUD\obj\Debug\Proyecto-CRUD.pdb
+C:\Users\MINEDUCYT\Desktop\Parcial-CRUD\Proyecto-CRUD\Proyecto-CRUD\bin\Debug\DatosLayer.dll
+C:\Users\MINEDUCYT\Desktop\Parcial-CRUD\Proyecto-CRUD\Proyecto-CRUD\bin\Debug\DatosLayer.pdb
+C:\Users\MINEDUCYT\Desktop\Parcial-CRUD\Proyecto-CRUD\Proyecto-CRUD\obj\Debug\Proyecto.95857CAC.Up2Date
