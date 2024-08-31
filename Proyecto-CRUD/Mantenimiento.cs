@@ -76,16 +76,19 @@ namespace Proyecto_CRUD
             var update = ObtenerNuevoCliente(); // Obtiene los datos del formulario como un nuevo objeto Person.
             int resultado = persona.ActualizarPersonal(update, id_); // Intenta actualizar el registro en la base de datos.
 
-            if (resultado > 0)
+            if (validarCampoNull(update) == false)
             {
+                if (resultado > 0){
                 // Muestra un mensaje de éxito y cierra el formulario si la actualización fue exitosa.
                 MessageBox.Show("Se ha actualizado de forma EXITOSA", "Actualización", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
+                }
             }
+
             else
             {
                 // Muestra un mensaje de error si la actualización falla.
-                MessageBox.Show("ERROR", "Actualización", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("ERROR - Campos Vacios", "Actualización", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

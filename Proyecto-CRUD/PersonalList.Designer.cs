@@ -40,7 +40,6 @@
             this.CompanyName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ContactName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ContactTitle = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Addres = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.City = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Region = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PostalCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -105,7 +104,6 @@
             this.CompanyName,
             this.ContactName,
             this.ContactTitle,
-            this.Addres,
             this.City,
             this.Region,
             this.PostalCode,
@@ -157,13 +155,6 @@
             this.ContactTitle.DataPropertyName = "ContactTitle";
             this.ContactTitle.HeaderText = "ContactTitle";
             this.ContactTitle.Name = "ContactTitle";
-            // 
-            // Addres
-            // 
-            this.Addres.DataPropertyName = "Addres";
-            this.Addres.HeaderText = "Addres";
-            this.Addres.Name = "Addres";
-            this.Addres.Visible = false;
             // 
             // City
             // 
@@ -238,14 +229,13 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView TablaPersonal;
         private System.Windows.Forms.DataGridViewImageColumn Delete;
-        private new System.Windows.Forms.DataGridViewImageColumn Update;
+        private System.Windows.Forms.DataGridViewImageColumn Update;
         private System.Windows.Forms.DataGridViewTextBoxColumn SupplierID;
-        private new System.Windows.Forms.DataGridViewTextBoxColumn CompanyName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CompanyName;
         private System.Windows.Forms.DataGridViewTextBoxColumn ContactName;
         private System.Windows.Forms.DataGridViewTextBoxColumn ContactTitle;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Addres;
         private System.Windows.Forms.DataGridViewTextBoxColumn City;
-        private new System.Windows.Forms.DataGridViewTextBoxColumn Region;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Region;
         private System.Windows.Forms.DataGridViewTextBoxColumn PostalCode;
         private System.Windows.Forms.DataGridViewTextBoxColumn Country;
         private System.Windows.Forms.DataGridViewTextBoxColumn Phone;
