@@ -1,0 +1,2 @@
+En este proyecto se utilizo la base de datos Northwind, de la cual se esta utilizando la tabla Suppliers. Para poder utilizar dicha tabla se tuvo que modificar una restriccion ya que la llave primaria es llave foreana en la tabla Products, entonces para poder realizar el CRUD se tuvo que deshabilitar la restriccion con el siguiente comando: ALTER TABLE Products
+NOCHECK CONSTRAINT FK_Products_Supliers;
